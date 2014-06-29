@@ -57,6 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\default.css" />
+    <Content Include="index.html" />
+    <Content Include="js\hvmGame.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

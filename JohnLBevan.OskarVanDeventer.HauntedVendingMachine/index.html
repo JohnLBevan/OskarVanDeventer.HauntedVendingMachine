@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" charset="utf-8">
+    <title>Oskar van Deventer's Haunted Vending Machine Puzzle</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/hvmGame.js"></script>
+</head>
+<body>
+
+    <div class="centeredContent">
+
+        <h1>Oskar van Deventer's Haunted Vending Machine Puzzle</h1>
+
+        <!-- tabindex ensures canvas has focus -->
+        <canvas id="gameid" tabindex="1">
+            Your browser does not support HTML5 Canvas, required for this game.
+            Please see <a href="http://en.wikipedia.org/wiki/Canvas_element#Support">this Wiki article</a> for details of browsers supporting this feature.
+        </canvas>
+        <!-- todo: put in form & buttons to adjust board size & other options -->
+        
+        <h2>How to Play</h2>
+        <ul>
+            <li>Use the buttons or your keyboard's number keys to drop coins in the numberred slots.</li>
+            <li>When a coin hits the top of a switch it sticks.</li>
+            <li>When a coin hits the bottom of a switch it goes through and toggles the switch.</li>
+            <li>When a coin hits a coin it rolls to the other side of the switch.</li>
+        </ul>
+
+        <h2>More Info</h2>
+        <dl>
+            <dt>Inspiration</dt>
+            <dd>My inspiration for this demo was this <a href="http://puzzling.stackexchange.com/questions/1715/oskar-van-deventers-haunted-vending-machine-puzzle" target="_blank">question</a> on Stack Exchange, which points to a <a href="http://www.clickmazes.com/ovd/ixovend.htm" target="_blank">java version</a> which isn't runnable on many machines due to security restrictions  / java vulnerabilities.</dd>
+            <dt>Other Puzzles</dt>
+            <dd><a href="http://oskarvandeventer.nl/" target="_blank">Oskar Van Deventer</a>'s site gives details of more of his puzzles.</dd>
+        </dl>
+
+    </div>
+
+</body>
+</html>
